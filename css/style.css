@@ -22,8 +22,10 @@ a {
 
 
 li {
-    text-decoration: none;
+    list-style: none;
 }
+
+
 
 input {
     border: none;
@@ -36,8 +38,6 @@ input {
     width: 1000px;
     padding: 100px 0;
     margin: 0 auto;
-    background-color: blueviolet;
-
 }
 
 .col-1-3 {
@@ -130,4 +130,12 @@ input {
     content: '';
     display: block;
     clear: both;
+}
+
+[class*="item"]:hover {
+    background-color: rgba(118, 117, 128, 0.1);
+}
+
+[class*="item"]:hover a {
+    color: #ec5a62;
 }
