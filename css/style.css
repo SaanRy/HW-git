@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+background-color: antiquewhite;
+}
+
+
+input {
+    border: none;
+    background-color: transparent;
+}
+
+.page__container {
+
+    width: 1000px;
+    padding-top: 200px;
+}
+
+.search__input {
+    width: 80%;
+    float: left;
+}
+
+.search__btn {
+    width: 20%;
+    float: left;
+    background-image: url(..img/magnifier.svg);
+    background-color: black;
+}
+
+.header:after {
+    content: '';
+    display: block;
+    clear: both;
+}
